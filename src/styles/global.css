@@ -1,3 +1,5 @@
+
+
 body{
     display: flex;
     align-items: center;
@@ -12,6 +14,13 @@ body{
     border-radius: 20px;
     padding: 35px 40px;
     background-color: black;
+}
+
+.container header{
+    color:#b2b2b2;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header{
@@ -58,7 +67,7 @@ header .column span{
 
 .keys-check input:checked::before{
     left: 2.1rem;
-    background-color: #8c8c8c;
+    background-color: #ffffff;
 }
 
 .piano-keys{
